@@ -10,6 +10,11 @@ public class Driver {
 		System.out.println(s.getSideB());
 		System.out.println(s.getArea());
 
+		Animals a = new Animals();
+		a.setColor("purple");
+		a.setType("snake");
+		System.out.println(a.getType());
+		System.out.println(a.getColor());
 	}
 
 }
